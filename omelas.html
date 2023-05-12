@@ -19,8 +19,30 @@
       </p>
       <p style="text-indent: 25px;">
         Suppose Omelas has a population of 
-        $n$
-         citizens (a natural number). The exact population of Omelas is not specified. Since it’s implied in the story, let’s assume the population is significantly greater than some small natural number like ten. Suppose 
+        \(n\)
+        citizens (a natural number). The exact population of Omelas is not specified. Since it’s implied in the story, let’s assume the population is significantly greater than some small natural number like ten. Suppose 
+        \(n-1\)
+        citizens of Omelas have a happiness score
+        \(h_{citizens}\),
+        which we assume is very high, and a suffering score 
+        \(d_{citizens}\),
+        which we assume is very low. Suppose one child has a happiness score 
+        \(h_{child}\),
+        which we assume is very low, and a suffering score 
+        \(d_{child}\)
+        which we assume is very high. The net ethical merit score is therefore:
+        <center>$$
+            (n-1) \cdot ( h_{citizens} - d_{citizens} ) + 1 \cdot ( h_{child} - d_{child} )
+        $$</center>
+        We can substitute some of the variables for arbitrary high and low numbers to get:
+        <center>$$
+            (n-1) \cdot ( 100 - 0 ) + 1 \cdot ( 0 - 100 )
+        $$</center>
+        This simplifies to:
+        <center>$$
+            100n - 100
+        $$</center>
+        Since \(n\) is always greater than two, the expressions above will always be positive. Therefore, under utilitarianism, this scenario is a moral net positive.
       </p>
     </font>
   </body>
